@@ -123,12 +123,12 @@ img {
   color: var(--text);
 }
 
-.nav-cta {
+a.nav-cta {
   display: none;
 }
 
 @media (min-width: 720px) {
-  .nav-cta {
+  a.nav-cta {
     display: inline-flex;
   }
 }
