@@ -447,6 +447,39 @@ section {
   margin: 0;
 }
 
+/* ---------- Screenshots ---------- */
+
+.screenshots-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 20px;
+}
+
+@media (min-width: 680px) {
+  .screenshots-grid {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+.screenshot-card {
+  margin: 0;
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-md);
+  overflow: hidden;
+}
+
+.screenshot-card img {
+  width: 100%;
+  display: block;
+}
+
+.screenshot-card figcaption {
+  padding: 14px 18px;
+  font-size: 14px;
+  color: var(--text-dim);
+}
+
 /* ---------- Pricing ---------- */
 
 .pricing-table {
